@@ -1,0 +1,26 @@
+{
+  "name": "vegan-list-sp",
+  "version": "1.0.0",
+  "description": "API do Campeonato Brasileiro Serie A",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ezequiel França",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezefranca/vegan-list-sp.git"
+  },
+  "keywords": [
+    "vegan",
+    "sao",
+    "paulo",
+    "brazil",
+    "sp"
+  ],
+  "bugs": {
+    "url": "https://github.com/ezefranca/vegan-list-sp/issues"
+  },
+  "homepage": "https://github.com/ezefranca/vegan-list-sp#readme"
+}
