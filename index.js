@@ -4,6 +4,7 @@
 // init project
 const express = require('express');
 const MongoClient = require('mongodb').MongoClient;
+var config = require('./config');
 const app = express();
 
 //
