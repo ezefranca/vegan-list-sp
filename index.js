@@ -3,7 +3,18 @@
 
 // init project
 const express = require('express');
+const MongoClient = require('mongodb').MongoClient;
 const app = express();
+
+//
+var db = MongoClient.connect('mongobdurl', function(err, db) {
+    if(err)
+        throw err;
+    console.log("connected to the mongoDB !");
+    myCollection = db.collection('restaurants_collection');
+});
+
+
 
 // http://expressjs.com/en/starter/static-files.html
 app.use(express.static('public'));

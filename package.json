@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/ezefranca/vegan-list-sp/issues"
   },
-  "homepage": "https://github.com/ezefranca/vegan-list-sp#readme"
+  "homepage": "https://github.com/ezefranca/vegan-list-sp#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
 }
